@@ -45,7 +45,7 @@
             padding: 20px;
             box-sizing: border-box;
             margin-bottom: 20px;
-            position: relative; /* Position relative for absolute positioning of description */
+            position: relative; /* Added */
         }
         .simulation-header {
             font-size: 24px;
@@ -59,14 +59,13 @@
         .simulation-description {
             color: #cccccc; /* Light gray */
             font-size: 16px;
-            position: absolute;
-            bottom: 10px;
-            left: 10px;
-            width: calc(100% - 20px);
+            position: absolute; /* Changed */
+            bottom: 10px; /* Changed */
+            left: 20px; /* Changed */
+            width: calc(100% - 40px); /* Changed */
             padding: 10px;
-            border: 1px solid #483d8b; /* DarkSlateBlue */
-            border-radius: 5px;
             background-color: #1e1e3f; /* Dark purple */
+            border-radius: 5px;
         }
     </style>
 </head>
