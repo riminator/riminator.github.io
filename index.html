@@ -45,7 +45,7 @@
             padding: 20px;
             box-sizing: border-box;
             margin-bottom: 20px;
-            position: relative;
+            position: relative; /* Position relative for absolute positioning of description */
         }
         .simulation-header {
             font-size: 24px;
@@ -60,12 +60,12 @@
             color: #cccccc; /* Light gray */
             font-size: 16px;
             position: absolute;
-            bottom: 20px;
-            left: 20px;
-            right: 20px;
-            padding: 20px;
+            bottom: 10px;
+            left: 10px;
+            width: calc(100% - 20px);
+            padding: 10px;
             border: 1px solid #483d8b; /* DarkSlateBlue */
-            border-radius: 10px;
+            border-radius: 5px;
             background-color: #1e1e3f; /* Dark purple */
         }
     </style>
@@ -83,7 +83,7 @@
             <!-- Paste the download link for the first simulation below -->
             <iframe class="simulation-iframe" src="paste_your_download_link_here"></iframe>
             <div class="simulation-description">
-                The "Planet Simulation" is an interactive simulation program built using Pygame that offers users a captivating journey through our solar system and beyond. Featuring an intuitive interface, users can pause and resume the simulation, toggle between information views, and even explore the Kepler Planetary System with a single click. The simulation boasts realistic orbital mechanics, where planets and asteroids move dynamically according to Newton's laws of gravitation. What sets this simulation apart is its inclusion of both our familiar solar system and the exotic Kepler-90 system, showcasing a diverse range of celestial bodies from Earth-like planets to gas giants. With stunning visuals, educational value, and the ability to customize the tick speed, the "Planet Simulation" offers an immersive and educational experience for enthusiasts of astronomy and space exploration.
+                Write about Simulation 1 here. You can provide details, explanations, or any relevant information.
             </div>
         </div>
         <div class="simulation">
